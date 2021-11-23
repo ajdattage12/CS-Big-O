@@ -147,7 +147,7 @@ function removeNum() {
 
 // 10) -------------------------------------------------------
 function insertNum() {
-    numbers.splice(3, 0, 19)
+    numbers.splice(3, 0, 19) //changes all the items in the array
 }
 // Q: What is the time complexity of the function?
 // ANSWER: O(n)
@@ -155,7 +155,7 @@ function insertNum() {
 
 // 11) -------------------------------------------------------
 function pushNum() {
-    numbers.push(25)
+    numbers.push(25) //doesn't impact the rest of the array
 }
 // Q: What is the time complexity of the function?
 // ANSWER: O(1)
